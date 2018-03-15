@@ -1,4 +1,4 @@
-# ProjectM
+# Project M<s>aika</s>
 
 © 2018 Dark Tornado, All rights reserved.
 
