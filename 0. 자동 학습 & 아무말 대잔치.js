@@ -59,7 +59,7 @@ AI.isValidData = function(data) { //이 말이 배울 말인지 아닌지를 구
     for (var n = 0; n < noSave.length; n++) { //배우지 않도록 예외처리.
         if (data == noSave[n]) return false;
     }
-    noSave = ["\n", "", "/"]; //이 배열에 들어있는 내용이 포함된 채팅은 배우지 않음. 비속어 필터링 등도 여기에다가 넣으면 됨
+    noSave = ["\n", "/"]; //이 배열에 들어있는 내용이 포함된 채팅은 배우지 않음. 비속어 필터링 등도 여기에다가 넣으면 됨
     for (var n = 0; n < noSave.length; n++) { //배열의 길이만큼 반복
         if (noSave[n].indexOf(data) != -1) return false; //배열의 요소들 중 포함되는게 하나라도 있다면, false 반환
     }
