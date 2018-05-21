@@ -24,9 +24,9 @@
 
 ### 배포용 버전 목록
 - 버전 0.0 : [(아무말 대잔치)](https://github.com/DarkTornado/ProjectM/blob/master/0.%20자동%20학습%20%26%20아무말%20대잔치.js)
-- 버전 1.0 : [Mariko](https://github.com/DarkTornado/ProjectM/blob/master/1.%20Mariko.js)
-- 버전 1.1 : Miseki - 테스트 완료
-- 버전 2.0 : Murin - 개발 중
+- 버전 1.0 : [Mariko (마리코)](https://github.com/DarkTornado/ProjectM/blob/master/1.%20Mariko.js)
+- 버전 1.1 : Miseki (미세키) - 테스트 완료
+- 버전 2.0 : Murin (무린) - 개발 중
 
 ### 비고
 - 버전 0.0은 그냥 아무말 대잔치.
