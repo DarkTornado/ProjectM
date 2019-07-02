@@ -69,7 +69,6 @@ Moka.checkWord = function(que, msg) { //적당히 비슷한 말인지 비교
 Moka.getReply = function(room, msg, data) { //수신된 채팅에 대한 적당한 답변 반환
     msg = msg.replace(/[^(가-힣ㄱ-ㅎㅏ-ㅣ0-9 )]/g, ""); //수신된 채팅 내용 중 한글, 띄어쓰기, 숫자를 제외하고 전부 삭제
     if (data != null) { //저장된 채팅이 없으면 작동 안함
-        data = data.split("\n"); //냥
         var result = []; //비슷한 말들이 들어갈 배열
         var max = 0; //최대 유사도(?) 값
         for (var n = 0; n < data.length - 1; n++) { //저장된 채팅들 중 비슷하다 싶은 녀석들을 배열에 넣을건데,
@@ -208,7 +207,7 @@ function response(room, msg, sender, isGroupChat, replier) {
     /*적당한 채팅 하나 가져와서 답장(?)하는 부분*/
     if (Math.floor(Math.random() * 10) == 0) { //10% 확률로 작동
         var data = DB.readData(room); //저장된 채팅들을 불러옴
-        var chat = Moka.getReply(room, msg, data); //적당한거 하나 가져와서
+        var chat = Moka.getReply(room, msg, data.split("\n")); //적당한거 하나 가져와서
         if (chat != null) Moka.say(chat, replier); //전송
     }
 
