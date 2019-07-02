@@ -1,7 +1,7 @@
 /*
 Project - M
 5th Open Source : Moka
-© 2018-2019 Dark Tornado, All rights reserved.
+© 2018 Dark Tornado, All rights reserved.
 
 <작동 방식>
 1. 채팅방에서 사람들이 하는 채팅을 '내장메모리/Moka/' 폴더에 '방이름.txt' 파일로 저장.
