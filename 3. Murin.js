@@ -1,7 +1,7 @@
 /*
 Project - M
 3rd Open Source : Murin
-© 2018 Dark Tornado, All rights reserved.
+© 2018-2019 Dark Tornado, All rights reserved.
 
 <작동 방식>
 1. 채팅방에서 사람들이 하는 채팅을 '내장메모리/Murin/' 폴더에 '방이름.txt' 파일로 저장.
@@ -70,7 +70,7 @@ Murin.checkWord = function(que, msg) { //적당히 비슷한 말인지 비교
 };
 Murin.getReply = function(room, msg) { //수신된 채팅에 대한 적당한 답변 반환
     var data = DB.readData(room); //저장된 채팅들을 불러옴
-    if (data != null && Math.floor(Math.random() * maxR) == 0) { //저장된 채팅이 없거나, 10% 확률이 터진게 아니면, 작동 안함
+    if (data != null && Math.floor(Math.random() * 10) == 0) { //저장된 채팅이 없거나, 10% 확률이 터진게 아니면, 작동 안함
         data = data.split("\n"); //냥
         var result = []; //비슷한 말들이 들어갈 배열
         for (var n = 0; n < data.length - 1; n++) { //적당하다 싶은 녀석들을
