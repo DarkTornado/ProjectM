@@ -214,7 +214,7 @@ function response(room, msg, sender, isGroupChat, replier) {
     /*채팅을 학습하는 부분*/
     if (Moka.isValidData(msg)) { //배울 만한 채팅인 경우,
         var data = DB.readData(room); //배운 채팅 목록을 가져옴
-        if (data == null) { //이미 배운게 있다면
+        if (data == null) { //아직 배운게 없다면,
             DB.saveData(room, msg); //새로 저장
         } else { //아니면,
             if (lastSender[room] == sender) { //같은 사람이 연속으로 채팅을 한 경우,
