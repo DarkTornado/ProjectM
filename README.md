@@ -1,6 +1,6 @@
 # Project M<s>aika</s>
 
-© 2018 Dark Tornado, All rights reserved.
+© 2018-2020 Dark Tornado, All rights reserved.
 
 ### 목적
  대화하는 카톡봇 만들기.
@@ -29,7 +29,7 @@
 - 버전 2.0 : [Murin (무린)](https://github.com/DarkTornado/ProjectM/blob/master/3.%20Murin.js)
 - 버전 3.0 : [Merisia (메리시아)](https://github.com/DarkTornado/ProjectM/blob/master/4.%20Merisia.js)
 - 버전 3.1 : [Moka (모카)](https://github.com/DarkTornado/ProjectM/blob/master/5.%20Moka.js)
+- 변외 : [Monika (모니카)](https://github.com/DarkTornado/ProjectM/tree/master/Monika)
 
 ### 비고
 - 버전 0.0은 그냥 아무말 대잔치.
-- 닼땅과 Nusty에 있는 대화 기능과는 다른 방식. 마이카의 대화 방식은 Nusty로 이식 중.
