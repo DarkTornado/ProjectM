@@ -27,7 +27,7 @@ Monika.read = function(name) {
     return FileStream.read(sdcard + "/Monika/" + name + ".txt");
 };
 Monika.save = function(name, value) {
-    return FileStream.write(sdcard + "/Monika/" + name + ".txt", value);
+    FileStream.write(sdcard + "/Monika/" + name + ".txt", value);
 };
 Monika.isValidData = function(msg) {
     var invalids = ["#", "/"];
