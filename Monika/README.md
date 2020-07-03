@@ -15,7 +15,6 @@
 
 ### 배포용 버전 목록
 - [버전 1.0](https://github.com/DarkTornado/ProjectM/blob/master/Monika/Monika%201.0.js)
-- [버전 2.0](https://github.com/DarkTornado/ProjectM/blob/master/Monika/Monika%202.0.js)
 
 ### 비고
 - 넘모 무서운 거시에오.
