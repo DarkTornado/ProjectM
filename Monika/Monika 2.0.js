@@ -105,7 +105,7 @@ function response(room, msg, sender, isGroupChat, replier) {
     if (msg == "모니카") {
         replier.reply("Just Monika");
     }
-    if (msg == "시니카" || msg=="씨니카") {
+    if (msg == "시니카" || msg == "씨니카") {
         replier.reply("모발년이ㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣ");
     }
     if (msg == "/DB") {
