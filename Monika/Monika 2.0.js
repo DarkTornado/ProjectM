@@ -41,7 +41,7 @@ Monika.save = function(name, value) {
 Monika.isValidData = function(msg) {
     var invalids = ["#", "/"];
     for (var n = 0; n < invalids.length; n++) {
-        if (msg.charAt(0) == invalids[n]) return false;
+        if (msg.startsWith(invalids[n])) return false;
     }
     var noStudy = ["\n", "//"];
     for (var n = 0; n < noStudy.length; n++) {
