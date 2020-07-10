@@ -80,7 +80,7 @@ Miseki.say = function(msg, replier) { //그냥 말하는 함수
     replier.reply("[AI] " + msg); //앞에다가 이상한 문구 붙이는 용도
 };
 Miseki.isValidData = function(msg) { //배울 만한 채팅인지 구분하는 함수
-    if (msg.charAt(0) == "#") return; //해시태그(#으로 시작)는 학습 X.
+    if (msg.startsWith("#")) return; //해시태그(#으로 시작)는 학습 X.
     var noStudy = ["\n"]; //엔터가 포함된건 학습 X. 비속어 필터링 등도 여기다가 넣으면 이상한 말은 안배움
     for (var n = 0; n < noStudy.length; n++) {
         if (msg.indexOf(noStudy[n]) != -1) return false;
