@@ -94,7 +94,7 @@ Moka.say = function(msg, replier) { //그냥 말하는 함수
 Moka.isValidData = function(msg) { //배울 만한 채팅인지 구분하는 함수 
     var invalids = ["#", "/"];
     for (var n = 0; n < invalids.length; n++) {
-        if (msg.charAt(0) == invalids[n]) return false; //특정 문자로 시작하는 것은 학습 X.    
+        if (msg.startsWith(invalids[n])) return false; //특정 문자로 시작하는 것은 학습 X.    
     }
     var noStudy = ["\n", "//"]; //엔터가 포함된건 학습 X. 비속어 필터링 등도 여기다가 넣으면 이상한 말은 안배움
     for (var n = 0; n < noStudy.length; n++) {
