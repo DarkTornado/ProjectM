@@ -129,7 +129,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB) {
         AI.study(room, msg); //배움
     }
 
-    /*학습된 채팅 내용들 중 아무너가 하나 전송*/
+    /*학습된 채팅 내용들 중 아무거나 하나 전송*/
     var r = Math.floor(Math.random() * 10); //0~9 중 아무 숫자나 생성
     if (r == 0) { //그 숫가자 0이라면(1/10 확률)
         var chat = AI.getRandomChat(room); //해당 방에서 수신된 채팅들 중 아무 채팅이나 하나 불러옴
