@@ -32,7 +32,7 @@
 - 버전 3.0 : [Merisia (메리시아)](4.%20Merisia.js)
 - 버전 3.1 : [Moka (모카)](5.%20Moka.js)
 - 버전 4.0 : Moka+ (모카+) - 테스트 종료<s>했는데, 소스 어디에 있는지 모름</s>
-- 변외 : [Monika (모니카)](https://github.com/DarkTornado/ProjectM/tree/master/Monika)
+- 변외 : [Monika (모니카)](Monika)
 
 ### 비고
 - 버전 0.0은 그냥 아무말 대잔치.
